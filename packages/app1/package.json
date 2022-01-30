@@ -2,7 +2,9 @@
   "name": "@ng_speedster/app1",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.19.4"
+  },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
@@ -28,6 +30,7 @@
       "last 1 safari version"
     ]
   },
+  "proxy": "http://localhost:3000",
   "devDependencies": {
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.1.11"
